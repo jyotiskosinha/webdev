@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home | Tirtharaj Sinha</title>
+    <style media="screen">
+      body {font-family: Arial, Helvetica, sans-serif;
+      text-align:center;}
+
+.navbar {
+  width: 100%;
+  background-color: cyan;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color:black;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: white;
+}
+
+.active {
+  background-color: green;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.linkbar{
+   background:black;
+   color:black;
+   text-align:center;
+   width:25%;
+   margin:auto;
+   border:2px solid;
+   border-radius:10px;
+}
+.linkbar a{
+  color:yellow;
+  text-decoration:none;
+  text-size:18px;
+
+}
+h1,h2{
+  color:purple;
+
+}
+.ulist{
+  background:skyblue;
+  color:orange;
+  text-align:center;
+  width:30%;
+  margin:auto;
+  border:5px dotted black;
+  border-radius:10px;
+  text-size:20px;
+}
+.detail{
+
+  color:black;
+  border:2px solid black;
+  border-radius:15px;
+  width:50%;
+  margin:auto;
+  text-size:16px;
+}
+.drop{
+  width:200px;
+  height:25px;
+  color:white;
+  background:black;
+  border:2px dotted white;
+  border-radius:5px;
+  test-size:20px;
+  margin:auto;
+  text-align:center;
+}
+.foot{
+  background:black;
+  height:300px;
+  color:white;
+  text-align:center;
+
+}
+img{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+    </style>
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+      <a href="#"><i class="fa fa-fw fa-search"></i>About</a>
+      <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+      <a href="#"><i class="fa fa-fw fa-user"></i> Resources</a>
+    </div><br>
+    <h1>Welcome to Tirtharaj Sinha Official</h1>
+    <br>
+    <nav class="linkbar">
+                <a href = "http://www.google.com">google</a><br><hr>
+                <a href = "http://www.instagram.com">instagram</a><br><hr>
+                <a href = "http://www.google.com">tweeter</a><br><hr>
+                <a href = "http://www.github.com/tirtharajsinha">Github</a><br>
+        </nav>
+        <hr>
+        <section>
+        <h2>Favorite programming languages</h2>
+        <ul  class="ulist">
+            <li>C/C++</li><hr>
+            <li>python</li><hr>
+            <li>javascript</li><hr>
+            <li>java</li>
+        </ul>
+    </section>
+    <hr>
+    <section>
+       <h2>My Achievements</h2>
+       <h3>Progress in this course (100%)</h3>
+       <progress value="100" max="100"></progress>
+       <br>
+       <h3>Progress in the Specialization capstone (20%)</h3>
+       <progress value="20" max="100"></progress>
+       <br>
+       <h3>progress in terget (15%)</h3>
+       <progress value="15" max="100"></progress>
+   </section>
+   <hr>
+   <section>
+        <h2>More About Me</h2>
+        <details class="detail">
+            <summary class="drop">My Childhood</summary><hr><br>I grew up in katwa.Now i'm a cs student of UEM kolkata.Programming and devolopment is my passion.<br>
+        </details>
+
+    </section>
+    <br><br>
+    <footer class="foot">
+        <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="Web Design For Everyone"><hr>
+        This page was created by  Tirtharaj Sinha.<br>
+        To learn more about web design, visit
+        <a href="http://www.intro-webdesign.com/"> Intro to Web Design</a>
+    </footer>
+  </body>
+</html>
